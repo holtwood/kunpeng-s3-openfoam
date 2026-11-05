@@ -5,7 +5,7 @@
 > 本仓库是 S3 赛季 OpenFOAM 赛题的调研与实现存档。**未参赛、未上机、未产生任何平台成绩。**
 >
 > **归档原因**：求职面试时间冲突，主动放弃 S3，精力转向 CPU 算子级性能优化
-> （见 [`kunpeng-conv`](https://github.com/holtwood/kunpeng-conv)）。
+> （见 [`kunpeng-s2-conv`](https://github.com/holtwood/kunpeng-s2-conv)）。
 >
 > **保留价值**：完整的赛题拆解、可修改范围分析、7 个候选优化的宏开关实现与 A/B 协议，
 > 可作为「HPC 应用级优化」的调研样本。
