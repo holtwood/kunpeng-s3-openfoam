@@ -1,0 +1,8 @@
+matrices/lduMatrix/lduMatrix/lduMatrixATmul.C
+matrices/lduMatrix/smoothers/GaussSeidel/GaussSeidelSmoother.C
+matrices/lduMatrix/solvers/smoothSolver/smoothSolver.C
+matrices/lduMatrix/solvers/GAMG/GAMGSolverInterpolate.C
+matrices/lduMatrix/solvers/GAMG/GAMGSolverSolve.C
+simpleFoam.C
+
+EXE = $(FOAM_USER_APPBIN)/simpleFoam

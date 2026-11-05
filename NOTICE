@@ -1,0 +1,11 @@
+NOTICE
+
+This repository contains modified source files derived from OpenFOAM v2606
+(https://www.openfoam.com), which is licensed under GPL-3.0-or-later.
+The original copyright and license headers are retained in each source file.
+
+The scripts and documentation are specific to the Kunpeng S3
+"OpenFOAM simpleFoam performance optimization" contest task.
+
+The repository is private during the contest. Do not publish it until the
+organizers' open-source requirement and the competition rules are satisfied.

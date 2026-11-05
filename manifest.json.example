@@ -1,0 +1,10 @@
+{
+  "spec_version": "1.1",
+  "team_id": "<队伍ID>",
+  "problem": "openfoam",
+  "submit_time": "2026-11-05T12:00:00+08:00",
+  "build": {
+    "script": "Make/options",
+    "compiler": "HPCKit 26.1.RC1 / bisheng (clang)"
+  }
+}
