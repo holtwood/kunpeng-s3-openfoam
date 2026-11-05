@@ -32,17 +32,19 @@
 
 ## 官方环境（来自《OpenFOAM 编译与提交指南》）
 
+> 路径中的 `<env-user>` 是比赛方环境里的账号名，已脱敏处理。
+
 ```bash
-source /home/share/chentao/s3/env-build/init.sh --quiet
+source /home/share/<env-user>/s3/env-build/init.sh --quiet
 export MY_SUFFIX=_bisheng_native
-source /home/share/chentao/s3/data/OpenFOAM-v2606/etc/bashrc
-export FOAM_EXTRA_LDFLAGS="-L/home/share/chentao/s3/env-build/cxx-lib -L/home/share/chentao/s3/env-build/hpckit/26.1.RC1/compiler/gcc/lib64"
+source /home/share/<env-user>/s3/data/OpenFOAM-v2606/etc/bashrc
+export FOAM_EXTRA_LDFLAGS="-L/home/share/<env-user>/s3/env-build/cxx-lib -L/home/share/<env-user>/s3/env-build/hpckit/26.1.RC1/compiler/gcc/lib64"
 mkdir -p "$FOAM_USER_APPBIN"
 ```
 
 - 编译器：HPCKit 26.1.RC1 / bisheng (clang)
-- 官方安装：`/home/share/chentao/s3/data/OpenFOAM-v2606`（只读）
-- 算例模板：`/home/share/chentao/s3/release/case/of_21M_template.tar.gz`
+- 官方安装：`/home/share/<env-user>/s3/data/OpenFOAM-v2606`（只读）
+- 算例模板：`/home/share/<env-user>/s3/release/case/of_21M_template.tar.gz`
 - 自测：`bash Allrun-solve`，576 核与绑核参数已内置
 
 ## 当前公开榜

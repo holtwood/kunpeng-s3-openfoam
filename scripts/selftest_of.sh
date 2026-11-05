@@ -10,14 +10,14 @@
 # Fill the three placeholders before dsub.
 # This script follows the official guide; it does not modify the case.
 
-TEMPLATE=/home/share/chentao/s3/release/case/of_21M_template.tar.gz
+TEMPLATE=/home/share/<env-user>/s3/release/case/of_21M_template.tar.gz
 WORKDIR="<你的工作目录>"
 LOG_TAG="${LOG_TAG:-selftest}"
 
-source /home/share/chentao/s3/env-build/init.sh --quiet
+source /home/share/<env-user>/s3/env-build/init.sh --quiet
 export MY_SUFFIX=_bisheng_native
-source /home/share/chentao/s3/data/OpenFOAM-v2606/etc/bashrc
-export FOAM_EXTRA_LDFLAGS="-L/home/share/chentao/s3/env-build/cxx-lib -L/home/share/chentao/s3/env-build/hpckit/26.1.RC1/compiler/gcc/lib64"
+source /home/share/<env-user>/s3/data/OpenFOAM-v2606/etc/bashrc
+export FOAM_EXTRA_LDFLAGS="-L/home/share/<env-user>/s3/env-build/cxx-lib -L/home/share/<env-user>/s3/env-build/hpckit/26.1.RC1/compiler/gcc/lib64"
 
 RUN=/tmp/${LOG_TAG}_$USER
 rm -rf "$RUN"; mkdir -p "$RUN"
