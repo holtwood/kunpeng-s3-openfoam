@@ -1,11 +1,13 @@
 # 鲲鹏 S3 · 流体力学应用优化（OpenFOAM v2606 / simpleFoam）
 
+> Part of [holtwood-arena](https://github.com/holtwood-arena) · 比赛与 benchmark 归档
+
 > ⚠️ **项目状态：已归档（2026-11-05）**
 >
 > 本仓库是 S3 赛季 OpenFOAM 赛题的调研与实现存档。**未参赛、未上机、未产生任何平台成绩。**
 >
 > **归档原因**：求职面试时间冲突，主动放弃 S3，精力转向 CPU 算子级性能优化
-> （见 [`kunpeng-s2-conv`](https://github.com/holtwood/kunpeng-s2-conv)）。
+> （见 [`kunpeng-s2-conv`](https://github.com/holtwood-arena/kunpeng-s2-conv)）。
 >
 > **保留价值**：完整的赛题拆解、可修改范围分析、7 个候选优化的宏开关实现与 A/B 协议，
 > 可作为「HPC 应用级优化」的调研样本。
@@ -94,13 +96,13 @@ ls -l "$FOAM_USER_APPBIN/simpleFoam"
 
 ## 仓库与迁移
 
-- GitHub：`holtwood/kunpeng-s3-openfoam`（private）
+- GitHub：`holtwood-arena/kunpeng-s3-openfoam`（public）
 - 服务器克隆：
 
 ```bash
-git clone git@github.com:holtwood/kunpeng-s3-openfoam.git
+git clone git@github.com:holtwood-arena/kunpeng-s3-openfoam.git
 # 或
-git clone https://github.com/holtwood/kunpeng-s3-openfoam.git
+git clone https://github.com/holtwood-arena/kunpeng-s3-openfoam.git
 ```
 
 - 如果服务器访问不了 GitHub，用本机生成的 bundle：
